@@ -1,14 +1,13 @@
 # Chairman-s-Timer
 
-## License
-* MIT  
- * see LICENSE
- 
+
 written by Takenosato (kamaitachi)
 
 July, 2015
 
 (c) 2015, takenosato(kamaitachi)
+
+License: MIT
 
 
  
