@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>Chairman's Timer [takenosato]</title>
+    
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/pure-min.css" rel="stylesheet">
+    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="css/cm-timer.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.timer.js"></script> -->
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="js/cm-config.js"></script>
+    <script type="text/javascript" src="js/cm-timer.js"></script>
+    
+  </head>
+  <body>
+  
+  
+  <div class="pure-g">
+      <div class="pure-u-4-24"><button class="pure-button pure-u-1-1 b-menu" id="start">Start</button></div>
+      <div class="pure-u-4-24"><button class="pure-button pure-u-1-1 b-menu" id="stop">Stop</button></div>
+      <div class="pure-u-4-24"><button class="pure-button pure-u-1-1 b-menu" id="reset">Reset</button></div>
+      <div class="pure-u-3-24"> </div>
+      <div class="pure-u-3-24"><button class="pure-button pure-u-1-1 b-menu" id="setting">Setting</button></div>
+      <div class="pure-u-2-24"><button class="pure-button pure-u-1-1 b-menu" id="bell1">Bell 1</button></div>
+      <div class="pure-u-2-24"><button class="pure-button pure-u-1-1 b-menu" id="bell2">Bell 2</button></div>
+      <div class="pure-u-2-24"><button class="pure-button pure-u-1-1 b-menu" id="bell3">Bell 3</button></div>
+  </div>
+  
+  <div class="pure-g">
+      <div class="pure-u-20-24"><div id="label01">Time :</div></div>
+      <div class="pure-u-4-24"><div id="nowtime01">88:88</div></div>
+  </div>
+  
+  <div class="pure-g">
+      <div class="pure-u-1-1"><div id="timer01"><span id="t01m">88</span><span id="timer01m">m</span><span id="t01s">88</span><span id="timer01s">s</span></div></div>
+  </div>
+  
+  <div class="pure-g">
+      <div class="pure-u-1-1"><div id="label02">Stop</div></div>
+  </div>
+  
+  <div class="pure-g">
+      <div class="pure-u-1-1"><div id="label03">Total Time :</div></div>
+  </div>
+ 
+  <div class="pure-g">
+      <div class="pure-u-1-1"><div id="timer02"><span id="t02m">88</span><span id="timer02m">m</span><span id="t02s">88</span><span id="timer02s">s</span></div></div>
+  </div>
+  
+  <div class="pure-g">
+      <div class="pure-u-1-1"><div id="info">Information</div></div>
+  </div>
+  
+  
+  
+  
+  
+  
+<div id="dialog1">
+   
+    <div class="ui-dialog-content">
+        <div class="subtitle1">
+            [Bell 1] First Bell :
+        </div>
+        <div class="setting1">
+            <input id="bell1m" type="text" value="01" size="2" /> min <!-- 1 -->
+            <input id="bell1s" type="text" value="00" size="2" /> sec <!-- 2 -->
+        </div>
+        <div class="subtitle1">
+            [Bell 2] End of Presentation :
+        </div>
+        <div class="setting1">
+            <input id="bell2m" type="text" value="02" size="2" /> min <!-- 1 -->
+            <input id="bell2s" type="text" value="00" size="2" /> sec <!-- 2 -->
+        </div>
+        <div class="subtitle1">
+            [Bell 3] End of Session :
+        </div>
+        <div class="setting1">
+            <input id="bell3m" type="text" value="03" size="2" /> min <!-- 1 -->
+            <input id="bell3s" type="text" value="00" size="2" /> sec <!-- 2 -->
+        </div>
+        
+        <br/>
+        <div class="written">written by takenosato(kamaitachi), July 2015,</div>
+    </div>
+
+</div>
+  
+  
+  
+  
+  
+  </body>
+</html>

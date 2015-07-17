@@ -1,0 +1,103 @@
+
+
+/* fix for firefox bug using Pure CSS */
+.pure-g, .pure-g-r {
+	font-family: Arial;
+	}
+
+html { font-size: 62.5%; } 
+
+.b-menu{
+	border-radius: 5px;
+	border: 1px solid #000000;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	margin: 0em 0em 0.5；em 0em;
+	padding: 0px;
+
+	}
+
+/*
+.no_space {
+	//margin: -0.25em 0em;
+	//padding: 0px;
+	}
+*/
+
+#timer01, #timer02 {
+	text-align: center;
+	margin: -0.25em 0em;
+	font-weight: bold;
+	}
+
+#timer02 {
+	color: blue;
+	}
+
+#timer01m, #timer01s, #timer02m, #timer02s {
+	font-size: 0.5em;
+	font-weight: bold;
+	}
+
+#nowtime01 {
+	text-align: right;
+	padding-right: 0.5em;
+	}
+
+#label01, #label03 {
+	padding-left: 0.5em;
+	}
+	
+#label02 {
+	font-weight: bold;
+	text-align: center;
+	}	
+	
+	
+	
+
+#dialog1 {
+	//width:200%;
+	margin:0;
+	padding:0px 0px;
+	//border:1px solid #aaaaaa;
+	border:0px;
+	//background:#ffffff;
+	//position:fixed;
+	display:none;
+	z-index:2;
+	
+	}
+	
+.classDialog1 {
+	font-size: 1.6em;
+	}
+
+.subtitle1 {
+	margin: 10px;
+	text-align: left;
+	}
+
+.setting1 {
+	text-align: right;
+	}
+
+
+.cation {
+	color: red;
+	}
+
+.color1 {
+	color: blue;
+	}
+	
+
+	
+	
+.written {
+	text-align: center;
+	font-size: 0.5em
+	}
+	
+
+	
+	
