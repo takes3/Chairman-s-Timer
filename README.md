@@ -29,3 +29,6 @@ Count Timer and Bells
 start1  --->  bell 1  --->  bell 2  --->  bell 3
 
 |----------count down--------|---count up---------->
+
+
+Keywords: Chairman's Timer, Presentation Timer, Countdown Timer, HTML5 and Javascript
