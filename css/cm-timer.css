@@ -3,6 +3,7 @@
 /* fix for firefox bug using Pure CSS */
 .pure-g, .pure-g-r {
 	font-family: Arial;
+	line-height:1;
 	}
 
 html { font-size: 62.5%; } 
@@ -25,7 +26,7 @@ html { font-size: 62.5%; }
 
 #timer01, #timer02 {
 	text-align: center;
-	margin: -0.25em 0em;
+	margin: 0em 0em;
 	font-weight: bold;
 	}
 
